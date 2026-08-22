@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recipe Tin — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.65;
+         max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; color: #16181a; }
+  h1 { font-size: 1.7em; } h2 { font-size: 1.15em; margin-top: 1.8em; }
+  .meta { color: #6c716f; font-size: .9em; }
+  a { color: #b0432c; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95em; }
+  th, td { text-align: left; padding: 8px 10px 8px 0; border-bottom: 1px solid #e8eae8;
+           vertical-align: top; }
+  th { font-size: .85em; text-transform: uppercase; letter-spacing: .05em; color: #6c716f; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14161a; color: #eef1f0; }
+    .meta { color: #868e8c; } a { color: #d4715a; }
+    th, td { border-bottom-color: #2c3138; } th { color: #868e8c; }
+  }
+</style>
+</head>
+<body>
+<h1>Recipe Tin — Privacy Policy</h1>
+<p class="meta">Effective date: August 21, 2026 · App: Recipe Tin (com.simplefoods.recipetin) ·
+Android and iOS</p>
+
+<p>Recipe Tin keeps your recipes in one place. There is no account and no sign-in. This page
+explains exactly what leaves your device and what does not.</p>
+
+<h2>There is no account</h2>
+<p>Recipe Tin has no sign-up, no login, and no user profile on any server. We do not know who you
+are, we cannot see your recipes, and we have no way to send you an email. The name and picture you
+can set in the app are stored <strong>only on your phone</strong> and are used only to sign a
+recipe you choose to share.</p>
+
+<h2>What stays on your device</h2>
+<p>Your <strong>shelf</strong> — every recipe you save, its ingredients, its method, your tags, the
+photos you attach, and the original photograph of any card you captured — is stored
+<strong>only on this device</strong>. It is never uploaded, never synced, and never visible to us.
+The same is true of your <strong>profile picture</strong>, your <strong>language</strong>,
+<strong>colour</strong> and <strong>typeface</strong> choices.</p>
+<p>Deleting the app deletes all of it, permanently, with no copy anywhere else. Because of that,
+your recipes cannot be recovered if you change or reset your phone — which is why the app has an
+<strong>Export</strong> feature. An export is a file you create and control; it is not sent to us.</p>
+
+<h2>What is sent, and why</h2>
+
+<p><strong>Photographs of recipes.</strong> When you photograph a recipe card, cookbook page or
+screenshot, that image is sent to our server and processed by Anthropic's Claude AI to read the
+recipe out of it. The image is used only to answer that request. It is not used to train any model.
+Your <strong>profile picture is never sent</strong> — it is written to your phone's storage and
+stays there. Same camera, entirely different path.</p>
+
+<p><strong>Recipe text, when you ask for a translation.</strong> If you choose to import a recipe
+in another language, or to share one in another language, the recipe's text is sent to our server
+and translated by Claude. If you do not use those features, no recipe text is ever sent.</p>
+
+<p><strong>Web addresses you paste.</strong> If you paste a link to a recipe page, the address is
+sent to our server, which fetches that page and extracts the recipe from it.</p>
+
+<p><strong>Search terms.</strong> If you use the online recipe search, your search text and filters
+are sent to our server and processed by Claude.</p>
+
+<p><strong>Ingredient names, for nutrition lookup.</strong> Ingredient names are sent to our server,
+which queries the USDA FoodData Central and Open Food Facts databases. These are public food
+databases; the request contains the ingredient name only and nothing that identifies you.</p>
+
+<p><strong>An anonymous app identifier.</strong> Every request carries a random identifier so we can
+enforce the daily free allowance and prevent abuse. It is generated on your device, is not linked to
+your name, email, phone number or device identifier, and cannot be used to identify you.</p>
+
+<h2>Advertising</h2>
+<p>The free version of Recipe Tin shows a banner advertisement supplied by
+<strong>Google AdMob</strong>. To do this, Google may access your device's advertising identifier
+and use it to select adverts. Google's handling of that data is governed by its own policy, at
+<a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+<p>On iOS you will be asked once whether Recipe Tin may track you across other apps and websites.
+<strong>Declining is completely fine</strong> — the app behaves identically either way, and you will
+simply see less relevant adverts.</p>
+<p><strong>A subscription removes all advertising</strong>, and with it the advertising identifier is
+no longer requested.</p>
+
+<h2>Subscriptions</h2>
+<p>Subscriptions are handled by <strong>RevenueCat</strong> on top of the App Store or Google Play.
+Payment is taken by Apple or Google — <strong>we never see your card details</strong>. RevenueCat
+receives the same anonymous identifier described above, plus the purchase receipt supplied by the
+store, so the app can tell whether your subscription is active.</p>
+
+<h2>Who receives your data</h2>
+<table>
+  <tr><th>Who</th><th>What they receive</th><th>When</th></tr>
+  <tr><td>Anthropic</td><td>Recipe photographs, recipe text for translation, search terms, pasted page text</td><td>Only when you use a feature that reads or writes text with AI</td></tr>
+  <tr><td>USDA FoodData Central</td><td>Ingredient names</td><td>When macros are looked up</td></tr>
+  <tr><td>Open Food Facts</td><td>Barcode numbers</td><td>When you scan a barcode</td></tr>
+  <tr><td>Google AdMob</td><td>Advertising identifier</td><td>Free version only</td></tr>
+  <tr><td>RevenueCat, Apple, Google</td><td>Anonymous identifier and purchase receipt</td><td>Only if you subscribe</td></tr>
+</table>
+<p>We do not sell your data. We do not share it with anyone not listed above. There is no
+analytics SDK in this app.</p>
+
+<h2>How long anything is kept</h2>
+<p>Recipe photographs and text are processed to answer your request and are not stored on our server
+afterwards. Our server keeps a temporary cache of <strong>nutrition lookups</strong> (for example,
+the macros for "red lentils") so the same ingredient is not fetched repeatedly — this contains food
+data only, never anything from your recipes and nothing identifying you. Daily usage counts are kept
+only long enough to enforce the allowance and reset every day.</p>
+
+<h2>Children</h2>
+<p>Recipe Tin is not directed at children under 13, and we do not knowingly collect personal
+information from them. Since the app has no account and collects no personal information from
+anyone, there is nothing to delete on request.</p>
+
+<h2>Your control</h2>
+<p>Because everything personal lives on your phone, you are in direct control of it:</p>
+<ul>
+  <li><strong>Delete a recipe</strong> — removed from your device immediately.</li>
+  <li><strong>Export your tin</strong> — a file you keep, wherever you choose.</li>
+  <li><strong>Uninstall the app</strong> — erases every recipe, photo, and setting.</li>
+  <li><strong>Reset your advertising identifier</strong> — in your phone's own privacy settings.</li>
+  <li><strong>Manage or cancel a subscription</strong> — in the App Store or Google Play.</li>
+</ul>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes in a way that affects what leaves your device, the effective date above
+will change and the updated policy will be published here before the change reaches the app.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:khalhal76@gmail.com">khalhal76@gmail.com</a></p>
+
+</body>
+</html>
